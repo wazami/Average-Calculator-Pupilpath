@@ -1,6 +1,6 @@
 
 import sys
-import pymongo
+import pymongo #incorporating mongoDB for a potential login system
 
 def individual_class_calculator():
     name_of_class = raw_input("Insert class name: ")
