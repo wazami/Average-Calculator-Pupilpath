@@ -1,6 +1,5 @@
 ##written in Python 2.7
 import sys
-import pymongo #incorporating mongoDB for a potential login system
 
 def individual_class_calculator():
     name_of_class = raw_input("Insert class name: ")
@@ -138,7 +137,3 @@ elif all_or_ind == 'i':
         else:
             print("No valid input given. Exiting...")
             sys.exit()
-
-            ##TO DO
-            #Perhaps make a login system with PyMongo where they can record their data and then encrypt that data
-                #well, the passwords at least
